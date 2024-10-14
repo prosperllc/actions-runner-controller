@@ -37,11 +37,11 @@ githubConfigSecret: pre-defined-secret
 #     - example.org
 
 ## maxRunners is the max number of runners the autoscaling runner set will scale up to.
-maxRunners: 20
+maxRunners: 40
 
 ## minRunners is the min number of idle runners. The target number of runners created will be
 ## calculated as a sum of minRunners and the number of jobs assigned to the scale set.
-minRunners: 5
+minRunners: 2
 
 #runner-scale-set1"
 
