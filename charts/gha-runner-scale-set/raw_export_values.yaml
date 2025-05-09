@@ -5,7 +5,7 @@ controllerServiceAccount:
   namespace: prosper-gha-runners
 githubConfigSecret: pre-defined-secret
 githubConfigUrl: https://github.com/prosperllc
-maxRunners: 25
+maxRunners: 30
 minRunners: 5
 template:
   spec:
